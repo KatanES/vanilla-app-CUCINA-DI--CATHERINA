@@ -1,0 +1,160 @@
+.wrapper {
+  padding: 30px;
+  min-height: 100%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+
+.block {
+  display: flex;
+}
+
+.block-side {
+  flex: 0 0 300px;
+  background-color: #77608d;
+}
+
+.block-body {
+  padding: 0 0 0 30px;
+  flex: 1 1 auto;
+  max-width: 0;
+}
+
+.image-slider {
+  padding: 30px 0 70px 0;
+}
+
+.swiper-container {
+}
+
+.image-slider-wrapper {
+}
+
+.image-slider-slide {
+}
+
+.swiper-slide {
+}
+
+.image-slider-image {
+  text-align: center;
+}
+
+.image-slider-image {
+  max-width: 100%;
+}
+
+/* тренинг */
+.block-nav,
+.block-footer {
+  /* Adds an inner padding */
+  padding: 15px;
+
+  /* Sets outer margins */
+  margin: 30px 10px 10px 10px;
+}
+
+/* CONTAINER */
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CARD SET */
+.card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+/* заменв на CARD SET */
+.excerpt-section {
+  /* Sets the border */
+  border: 2px dashed #2196f3;
+
+  /* Adds an inner padding */
+  padding: 15px;
+
+  /* Sets outer margins */
+  margin: 10px;
+  padding: 15px 0 150px 0;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.excerpt {
+  /* Sets the border */
+  border: 2px dashed #2196f3;
+
+  /* Adds an inner padding */
+  padding: 15px;
+
+  /* Sets outer margins */
+  margin: 30px 10px 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+  color: #fff;
+}
+
+.position {
+  /* Sets the border */
+  border: 2px dashed #2196f3;
+
+  /* Adds an inner padding */
+  padding: 15px;
+
+  /* Sets outer margins */
+  margin: auto;
+  height: 450px;
+}
+
+.block1 {
+  width: 100%;
+  height: 100px;
+  border: 2px dashed #2196f3;
+}
+
+.box {
+  width: 40%;
+  height: 300px;
+  /* Adds an inner padding */
+  padding: 15px;
+
+  /* Sets outer margins */
+  margin: 10px 10px 20px 30px;
+  display: inline-block;
+}
+
+.color-text-block1 {
+  color: #fff;
+}
+
+.text-block1 {
+  text-align: center;
+}
+
+.indigo {
+  background-color: #374073;
+}
+
+.amber {
+  background-color: #a98722;
+}
