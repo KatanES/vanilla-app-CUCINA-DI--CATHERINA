@@ -7,6 +7,9 @@ h5,
 h6,
 p {
   margin: 0;
+  margin-top: 0;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 p:last-child {
@@ -20,16 +23,34 @@ ul {
 }
 
 a {
-  color: currentColor;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
 button {
   cursor: pointer;
+  display: inline-block;
+  border-radius: 16px;
+  border: 1px solid transparent;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  color: var(--primary-text-color);
+  background-color: rgba(188, 26, 26, 0.2);
+  text-decoration: none;
+  text-align: center;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
 }
