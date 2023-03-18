@@ -158,3 +158,151 @@
 .amber {
   background-color: #a98722;
 }
+
+/* ---- video and foto ----*/
+/* ----------------------- */
+
+.ed-container {
+  /* display: block; */
+  max-width: 1280px;
+  /* padding-left: 15px;
+    padding-right: 15px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ed-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.ed-block-border {
+  /* border: 1px solid  chartreuse; */
+  border: 1px solid transparent;
+}
+
+.box {
+  display: inline-block;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.ed-button {
+  padding: 8px 12px;
+  border: 5px solid var(--primary-text-color);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+  color: var(--primary-text-color);
+}
+
+.ed-relative {
+  position: relative;
+  top: 150px;
+  /* left: 50px; */
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.ed-button:hover,
+.ed-button:focus {
+  color: #100f0f;
+  border: 5px solid #100f0f;
+  position: static;
+}
+
+.ed-box-video {
+  margin-top: 16px;
+}
+
+.ed-text-block-one {
+  font-size: 32px;
+  line-height: 1.25;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+/* .indigo {
+  background-color: #374073;
+}
+
+  
+.amber {
+  background-color: #a98722;
+} */
+
+/* ---- end video and foto ----*/
+/* ----------------------- */
+
+/*-------- block wrapper --------*/
+/* ----------------------------- */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  min-height: 100%;
+}
+
+.card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.excerpt {
+  /* Sets the border */
+  border: 2px dashed #2196f3;
+
+  /* Adds an inner padding */
+  padding: 15px 150px;
+
+  /* Sets outer margins */
+  margin: 10px 10px 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+  color: #fff;
+}
+
+.image-slider {
+  padding: 31px 0 47px 0;
+}
+
+.position {
+  /* Sets the border */
+  border: 2px dashed #2196f3;
+
+  /* Adds an inner padding */
+  /* padding: 15px; */
+
+  /* Sets outer margins */
+  margin: auto;
+}
+
+.swiper {
+}
+
+.swiper-wrapper {
+}
+
+.swiper-slide {
+}
+
+.image-slider-image {
+  text-align: center;
+  max-width: 100%;
+}
+
+/* end slider   */
